@@ -75,11 +75,11 @@ A complete real-time monitoring system for temperature and humidity data using A
       ```   
 
    - Default: `/dev/cu.usbserial-31310`
-4. **Delete TemHumi.log**:
-      -   If you have an existing `TemHumi.log` file from previous runs, delete it to start fresh:
-   ```bash
-   rm TemHumi.log
-   ```   
+5. **Delete TemHumi.log**:
+      - If you have an existing `TemHumi.log` file from previous runs, delete it to start fresh:
+         ```bash
+         rm TemHumi.log
+         ```   
 
 
 ## 🚀 Usage
