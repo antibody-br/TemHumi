@@ -34,8 +34,8 @@ HUMIDITY_THRESHOLD = 0.5    # Minimum humidity change (%) to trigger plot/log
 TEMPERATURE_THRESHOLD = 0.5 # Minimum temperature change (°C) to trigger plot/log
 
 # Calibration adjustments
-HUMIDITY_OFFSET = -4         # Adjustment for humidity (+ or - percentage points)
-TEMPERATURE_OFFSET = -0.5     # Adjustment for temperature (+ or - degrees Celsius)
+HUMIDITY_OFFSET = 0        # Adjustment for humidity (+ or - percentage points)
+TEMPERATURE_OFFSET = 0     # Adjustment for temperature (+ or - degrees Celsius)
 
 # Data buffers
 humidity_buffer = deque()
