@@ -57,13 +57,16 @@ A complete real-time monitoring system for temperature and humidity data using A
 3. **Upload Arduino sketch**:
    - Open `TemHumi_22/TemHumi_22.ino` in Arduino IDE
    -  🔌 Wiring DHT22
-      - pin1: VCC → 5V
-      - pin2: DATA → Digital Pin 7
-      - pin3: (not connected)
-      - pin4: GND → Ground
+
+      - pin1: VCC   → 5V
+      - pin2: DATA  → Digital Pin 7
+      - pin3: NC    → (not connected)
+      - pin4: GND   → Ground
+
 
          <img src="TemHumi_22/DHT22-Pinout.jpg" alt="DHT22-Pinout Diagram" width="17%" />
          <img src="TemHumi_22/DTH22_Circuit.jpg" alt="DHT22 Circuit Diagram" width="72.5%" />
+
 
    - Upload to your Arduino board. 
 
