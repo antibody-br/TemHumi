@@ -54,8 +54,8 @@ A complete real-time monitoring system for temperature and humidity data using A
    pip install matplotlib numpy pyserial scipy
    ```
 
-3. **Upload Arduino sketch**:
-   - Open `TemHumi_22/TemHumi_22.ino` in Arduino IDE
+3. **Wiring and Upload Arduino sketch**:
+   
    -  🔌 Wiring DHT22
 
       - pin1: VCC   → 5V
@@ -63,12 +63,12 @@ A complete real-time monitoring system for temperature and humidity data using A
       - pin3: NC    → (not connected)
       - pin4: GND   → Ground
 
+         <img src="TemHumi_22/DHT22-Pinout.jpg" alt="DHT22-Pinout Diagram" width="300" />
 
-         <img src="TemHumi_22/DHT22-Pinout.jpg" alt="DHT22-Pinout Diagram" width="20.1%" />
-         <img src="TemHumi_22/DTH22_Circuit.jpg" alt="DHT22 Circuit Diagram" width="67%" />
+   - Open `TemHumi_22/TemHumi_22.ino` in Arduino IDE
 
-
-   - Upload to your Arduino board. 
+   - Upload `TemHumi_22/TemHumi_22.ino` to your Arduino Board
+    
 
 4. **Configure serial port**:
    - Update `PORT` variable in `TemHum_read_serial_DHT.py`
