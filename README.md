@@ -64,8 +64,8 @@ A complete real-time monitoring system for temperature and humidity data using A
       - pin4: GND   → Ground
 
 
-         <img src="TemHumi_22/DHT22-Pinout.jpg" alt="DHT22-Pinout Diagram" width="17%" />
-         <img src="TemHumi_22/DTH22_Circuit.jpg" alt="DHT22 Circuit Diagram" width="72.5%" />
+         <img src="TemHumi_22/DHT22-Pinout.jpg" alt="DHT22-Pinout Diagram" width="20.1%" />
+         <img src="TemHumi_22/DTH22_Circuit.jpg" alt="DHT22 Circuit Diagram" width="67%" />
 
 
    - Upload to your Arduino board. 
